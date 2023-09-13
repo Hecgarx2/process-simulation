@@ -5,3 +5,10 @@ C:\Users\chomp\Documents\SharpDevelop Projects\Actividad_4\Actividad_4\bin\Debug
 C:\Users\chomp\Documents\SharpDevelop Projects\Actividad_4\Actividad_4\bin\Debug\Actividad_4.pdb
 C:\Users\chomp\Documents\SharpDevelop Projects\Actividad_4\Actividad_4\obj\Debug\Actividad_4.exe
 C:\Users\chomp\Documents\SharpDevelop Projects\Actividad_4\Actividad_4\obj\Debug\Actividad_4.pdb
+C:\Users\USER\Documents\SharpDevelop Projects\process-simulation\Actividad_4\bin\Debug\Actividad_4.exe
+C:\Users\USER\Documents\SharpDevelop Projects\process-simulation\Actividad_4\bin\Debug\Actividad_4.pdb
+C:\Users\USER\Documents\SharpDevelop Projects\process-simulation\Actividad_4\obj\Debug\Actividad_4.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\SharpDevelop Projects\process-simulation\Actividad_4\obj\Debug\Actividad_4.MainForm.resources
+C:\Users\USER\Documents\SharpDevelop Projects\process-simulation\Actividad_4\obj\Debug\Actividad_4.csproj.GenerateResource.Cache
+C:\Users\USER\Documents\SharpDevelop Projects\process-simulation\Actividad_4\obj\Debug\Actividad_4.exe
+C:\Users\USER\Documents\SharpDevelop Projects\process-simulation\Actividad_4\obj\Debug\Actividad_4.pdb
