@@ -38,39 +38,27 @@ namespace Actividad_4
 		{
 			this.progressBar1 = new System.Windows.Forms.ProgressBar();
 			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			this.buttonWait = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
 			this.checkBox2 = new System.Windows.Forms.CheckBox();
 			this.progressBar2 = new System.Windows.Forms.ProgressBar();
-			this.button3 = new System.Windows.Forms.Button();
-			this.checkBox3 = new System.Windows.Forms.CheckBox();
-			this.progressBar3 = new System.Windows.Forms.ProgressBar();
-			this.button4 = new System.Windows.Forms.Button();
-			this.checkBox4 = new System.Windows.Forms.CheckBox();
-			this.progressBar4 = new System.Windows.Forms.ProgressBar();
-			this.button5 = new System.Windows.Forms.Button();
-			this.checkBox5 = new System.Windows.Forms.CheckBox();
-			this.progressBar5 = new System.Windows.Forms.ProgressBar();
 			this.label1 = new System.Windows.Forms.Label();
 			this.lblProcess1 = new System.Windows.Forms.Label();
 			this.lblProcess2 = new System.Windows.Forms.Label();
-			this.lblProcess3 = new System.Windows.Forms.Label();
-			this.lblProcess4 = new System.Windows.Forms.Label();
-			this.lblProcess5 = new System.Windows.Forms.Label();
 			this.buttonStart = new System.Windows.Forms.Button();
+			this.checkBoxWait2 = new System.Windows.Forms.CheckBox();
+			this.checkBoxWait1 = new System.Windows.Forms.CheckBox();
 			this.SuspendLayout();
 			// 
 			// progressBar1
 			// 
 			this.progressBar1.BackColor = System.Drawing.Color.Red;
-			this.progressBar1.Location = new System.Drawing.Point(217, 80);
+			this.progressBar1.Location = new System.Drawing.Point(240, 122);
 			this.progressBar1.Name = "progressBar1";
 			this.progressBar1.Size = new System.Drawing.Size(312, 39);
 			this.progressBar1.TabIndex = 38;
 			// 
 			// checkBox1
 			// 
-			this.checkBox1.Location = new System.Drawing.Point(12, 80);
+			this.checkBox1.Location = new System.Drawing.Point(12, 122);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(104, 39);
 			this.checkBox1.TabIndex = 43;
@@ -78,29 +66,9 @@ namespace Actividad_4
 			this.checkBox1.UseVisualStyleBackColor = true;
 			this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1CheckedChanged);
 			// 
-			// buttonWait
-			// 
-			this.buttonWait.Enabled = false;
-			this.buttonWait.Location = new System.Drawing.Point(113, 80);
-			this.buttonWait.Name = "buttonWait";
-			this.buttonWait.Size = new System.Drawing.Size(89, 39);
-			this.buttonWait.TabIndex = 44;
-			this.buttonWait.Text = "Esperar";
-			this.buttonWait.UseVisualStyleBackColor = true;
-			// 
-			// button2
-			// 
-			this.button2.Enabled = false;
-			this.button2.Location = new System.Drawing.Point(113, 138);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(89, 39);
-			this.button2.TabIndex = 47;
-			this.button2.Text = "Esperar";
-			this.button2.UseVisualStyleBackColor = true;
-			// 
 			// checkBox2
 			// 
-			this.checkBox2.Location = new System.Drawing.Point(12, 138);
+			this.checkBox2.Location = new System.Drawing.Point(15, 180);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(104, 39);
 			this.checkBox2.TabIndex = 46;
@@ -111,96 +79,15 @@ namespace Actividad_4
 			// progressBar2
 			// 
 			this.progressBar2.BackColor = System.Drawing.Color.Red;
-			this.progressBar2.Location = new System.Drawing.Point(217, 138);
+			this.progressBar2.Location = new System.Drawing.Point(240, 176);
 			this.progressBar2.Name = "progressBar2";
 			this.progressBar2.Size = new System.Drawing.Size(312, 39);
 			this.progressBar2.TabIndex = 45;
 			// 
-			// button3
-			// 
-			this.button3.Enabled = false;
-			this.button3.Location = new System.Drawing.Point(113, 200);
-			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(89, 39);
-			this.button3.TabIndex = 50;
-			this.button3.Text = "Esperar";
-			this.button3.UseVisualStyleBackColor = true;
-			// 
-			// checkBox3
-			// 
-			this.checkBox3.Location = new System.Drawing.Point(12, 200);
-			this.checkBox3.Name = "checkBox3";
-			this.checkBox3.Size = new System.Drawing.Size(104, 39);
-			this.checkBox3.TabIndex = 49;
-			this.checkBox3.Text = "Crear proceso 3";
-			this.checkBox3.UseVisualStyleBackColor = true;
-			// 
-			// progressBar3
-			// 
-			this.progressBar3.BackColor = System.Drawing.Color.Red;
-			this.progressBar3.Location = new System.Drawing.Point(217, 200);
-			this.progressBar3.Name = "progressBar3";
-			this.progressBar3.Size = new System.Drawing.Size(312, 39);
-			this.progressBar3.TabIndex = 48;
-			// 
-			// button4
-			// 
-			this.button4.Enabled = false;
-			this.button4.Location = new System.Drawing.Point(113, 262);
-			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(89, 39);
-			this.button4.TabIndex = 53;
-			this.button4.Text = "Esperar";
-			this.button4.UseVisualStyleBackColor = true;
-			// 
-			// checkBox4
-			// 
-			this.checkBox4.Location = new System.Drawing.Point(12, 262);
-			this.checkBox4.Name = "checkBox4";
-			this.checkBox4.Size = new System.Drawing.Size(104, 39);
-			this.checkBox4.TabIndex = 52;
-			this.checkBox4.Text = "Crear proceso 4";
-			this.checkBox4.UseVisualStyleBackColor = true;
-			// 
-			// progressBar4
-			// 
-			this.progressBar4.BackColor = System.Drawing.Color.Red;
-			this.progressBar4.Location = new System.Drawing.Point(217, 262);
-			this.progressBar4.Name = "progressBar4";
-			this.progressBar4.Size = new System.Drawing.Size(312, 39);
-			this.progressBar4.TabIndex = 51;
-			// 
-			// button5
-			// 
-			this.button5.Enabled = false;
-			this.button5.Location = new System.Drawing.Point(113, 317);
-			this.button5.Name = "button5";
-			this.button5.Size = new System.Drawing.Size(89, 39);
-			this.button5.TabIndex = 56;
-			this.button5.Text = "Esperar";
-			this.button5.UseVisualStyleBackColor = true;
-			// 
-			// checkBox5
-			// 
-			this.checkBox5.Location = new System.Drawing.Point(12, 317);
-			this.checkBox5.Name = "checkBox5";
-			this.checkBox5.Size = new System.Drawing.Size(104, 39);
-			this.checkBox5.TabIndex = 55;
-			this.checkBox5.Text = "Crear proceso 5";
-			this.checkBox5.UseVisualStyleBackColor = true;
-			// 
-			// progressBar5
-			// 
-			this.progressBar5.BackColor = System.Drawing.Color.Red;
-			this.progressBar5.Location = new System.Drawing.Point(217, 317);
-			this.progressBar5.Name = "progressBar5";
-			this.progressBar5.Size = new System.Drawing.Size(312, 39);
-			this.progressBar5.TabIndex = 54;
-			// 
 			// label1
 			// 
 			this.label1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(68, 22);
+			this.label1.Location = new System.Drawing.Point(159, 40);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(408, 41);
 			this.label1.TabIndex = 57;
@@ -209,7 +96,7 @@ namespace Actividad_4
 			// lblProcess1
 			// 
 			this.lblProcess1.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblProcess1.Location = new System.Drawing.Point(545, 80);
+			this.lblProcess1.Location = new System.Drawing.Point(564, 122);
 			this.lblProcess1.Name = "lblProcess1";
 			this.lblProcess1.Size = new System.Drawing.Size(124, 35);
 			this.lblProcess1.TabIndex = 58;
@@ -217,39 +104,15 @@ namespace Actividad_4
 			// lblProcess2
 			// 
 			this.lblProcess2.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblProcess2.Location = new System.Drawing.Point(545, 138);
+			this.lblProcess2.Location = new System.Drawing.Point(564, 180);
 			this.lblProcess2.Name = "lblProcess2";
 			this.lblProcess2.Size = new System.Drawing.Size(124, 35);
 			this.lblProcess2.TabIndex = 59;
 			// 
-			// lblProcess3
-			// 
-			this.lblProcess3.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblProcess3.Location = new System.Drawing.Point(545, 204);
-			this.lblProcess3.Name = "lblProcess3";
-			this.lblProcess3.Size = new System.Drawing.Size(124, 35);
-			this.lblProcess3.TabIndex = 60;
-			// 
-			// lblProcess4
-			// 
-			this.lblProcess4.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblProcess4.Location = new System.Drawing.Point(545, 262);
-			this.lblProcess4.Name = "lblProcess4";
-			this.lblProcess4.Size = new System.Drawing.Size(124, 35);
-			this.lblProcess4.TabIndex = 61;
-			// 
-			// lblProcess5
-			// 
-			this.lblProcess5.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblProcess5.Location = new System.Drawing.Point(545, 321);
-			this.lblProcess5.Name = "lblProcess5";
-			this.lblProcess5.Size = new System.Drawing.Size(124, 35);
-			this.lblProcess5.TabIndex = 62;
-			// 
 			// buttonStart
 			// 
 			this.buttonStart.Enabled = false;
-			this.buttonStart.Location = new System.Drawing.Point(580, 22);
+			this.buttonStart.Location = new System.Drawing.Point(314, 238);
 			this.buttonStart.Name = "buttonStart";
 			this.buttonStart.Size = new System.Drawing.Size(89, 39);
 			this.buttonStart.TabIndex = 63;
@@ -257,58 +120,54 @@ namespace Actividad_4
 			this.buttonStart.UseVisualStyleBackColor = true;
 			this.buttonStart.Click += new System.EventHandler(this.ButtonStartClick);
 			// 
+			// checkBoxWait2
+			// 
+			this.checkBoxWait2.Enabled = false;
+			this.checkBoxWait2.Location = new System.Drawing.Point(125, 180);
+			this.checkBoxWait2.Name = "checkBoxWait2";
+			this.checkBoxWait2.Size = new System.Drawing.Size(109, 39);
+			this.checkBoxWait2.TabIndex = 65;
+			this.checkBoxWait2.Text = "Pausar proceso 2";
+			this.checkBoxWait2.UseVisualStyleBackColor = true;
+			// 
+			// checkBoxWait1
+			// 
+			this.checkBoxWait1.Enabled = false;
+			this.checkBoxWait1.Location = new System.Drawing.Point(122, 122);
+			this.checkBoxWait1.Name = "checkBoxWait1";
+			this.checkBoxWait1.Size = new System.Drawing.Size(112, 39);
+			this.checkBoxWait1.TabIndex = 64;
+			this.checkBoxWait1.Text = "Pausar proceso 1";
+			this.checkBoxWait1.UseVisualStyleBackColor = true;
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(700, 399);
+			this.ClientSize = new System.Drawing.Size(700, 328);
+			this.Controls.Add(this.checkBoxWait2);
+			this.Controls.Add(this.checkBoxWait1);
 			this.Controls.Add(this.buttonStart);
-			this.Controls.Add(this.lblProcess5);
-			this.Controls.Add(this.lblProcess4);
-			this.Controls.Add(this.lblProcess3);
 			this.Controls.Add(this.lblProcess2);
 			this.Controls.Add(this.lblProcess1);
 			this.Controls.Add(this.label1);
-			this.Controls.Add(this.button5);
-			this.Controls.Add(this.checkBox5);
-			this.Controls.Add(this.progressBar5);
-			this.Controls.Add(this.button4);
-			this.Controls.Add(this.checkBox4);
-			this.Controls.Add(this.progressBar4);
-			this.Controls.Add(this.button3);
-			this.Controls.Add(this.checkBox3);
-			this.Controls.Add(this.progressBar3);
-			this.Controls.Add(this.button2);
 			this.Controls.Add(this.checkBox2);
 			this.Controls.Add(this.progressBar2);
-			this.Controls.Add(this.buttonWait);
 			this.Controls.Add(this.checkBox1);
 			this.Controls.Add(this.progressBar1);
 			this.Name = "MainForm";
 			this.Text = "Hector Emmanuel Garcia Garcia Actividad_4";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.CheckBox checkBoxWait1;
+		private System.Windows.Forms.CheckBox checkBoxWait2;
 		private System.Windows.Forms.Button buttonStart;
-		private System.Windows.Forms.Label lblProcess5;
-		private System.Windows.Forms.Label lblProcess4;
-		private System.Windows.Forms.Label lblProcess3;
 		private System.Windows.Forms.Label lblProcess2;
 		private System.Windows.Forms.Label lblProcess1;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.CheckBox checkBox5;
-		private System.Windows.Forms.Button button5;
-		private System.Windows.Forms.CheckBox checkBox4;
-		private System.Windows.Forms.Button button4;
-		private System.Windows.Forms.CheckBox checkBox3;
-		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.CheckBox checkBox2;
-		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.Button buttonWait;
 		private System.Windows.Forms.CheckBox checkBox1;
 		private System.Windows.Forms.ProgressBar progressBar1;
 		private System.Windows.Forms.ProgressBar progressBar2;
-		private System.Windows.Forms.ProgressBar progressBar5;
-		private System.Windows.Forms.ProgressBar progressBar4;
-		private System.Windows.Forms.ProgressBar progressBar3;
 	}
 }
